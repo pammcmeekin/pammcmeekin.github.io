@@ -1,0 +1,43 @@
+.first-slide {
+	width: 100%;
+	height: auto;
+}
+
+.marketing {
+	padding: 60px 0;
+}
+
+.carousel-inner {
+	height: 400px
+}
+
+
+.jumbotron {
+	height: 600px;
+	background: url(../imgs/cover.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.jumbotron.ourstory{
+	background-image: url(../imgs/ourstory.jpg);
+}
+
+
+.jumbotron.type{
+	background-image: url(../imgs/type.jpeg);
+}
+
+
+.jumbotron.contact{
+	background-image: url(../imgs/contact.jpeg);
+}
+
+form {
+	width: 500px;
+	margin: auto;
+}
+
+
+body{
+	background-color: #FFFFFF;
+}
