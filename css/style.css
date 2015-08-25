@@ -11,15 +11,58 @@
 	height: 400px
 }
 
+.navbar-brand {
+	height: 20px;
+}
 
 .jumbotron {
 	height: 600px;
 	background: url(../imgs/cover.jpg) no-repeat center center fixed;
 	background-size: cover;
+	color: #FFFFFF;
+	position: relative;
+
+}
+
+.jumbotron-container div{
+	padding-top: 50px;
+}
+
+.jumbotron h1 {
+	padding-top: 60px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFFFFF;
+	display: inline-block;
+	font-family: HelveticaNeueLTStd-Bd; 
+	font-weight: bold; 
+	font-style: normal;
+}
+
+.jumbotron p {
+	font-family: DidotLTStd-Roman;
+	font-weight: lighter; 
+	font-style: normal;
+}
+
+.jumbotron:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+	content: '  ';
+	z-index: 1;
+}
+
+.jumbotron .container {
+	z-index: 2;
+	position: relative;
 }
 
 .jumbotron.ourstory{
 	background-image: url(../imgs/ourstory.jpg);
+	color: #FFFFFF;
 }
 
 
@@ -30,6 +73,7 @@
 
 .jumbotron.contact{
 	background-image: url(../imgs/contact.jpeg);
+	color: #FFFFFF;
 }
 
 form {
@@ -40,4 +84,75 @@ form {
 
 body{
 	background-color: #FFFFFF;
+}
+
+.marketing {
+	text-align: center;
+
+}
+.marketing .col-lg-4 {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	border-radius: 50%;
+	width: 300px;
+	float: none;
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.marketing .col-lg-4:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.2);
+	content: '  ';
+	z-index: 1;
+}
+
+.marketing .col-lg-4 h2 {
+ padding-top: 180px;
+ color: #FFFFFF;
+}
+
+.marketing .col-lg-4 div {
+	position: relative;
+	z-index: 2;
+}
+
+.box1 {
+	background-image: url(../imgs/car.jpg);
+}
+
+.box2 {
+	background-image: url(../imgs/car.jpg);
+}
+
+.box3 {
+	background-image: url(../imgs/car.jpg);
+}
+
+.box4 {
+	background-image: url(../imgs/car.jpg);
+}
+
+.box5 {
+	background-image: url(../imgs/car.jpg);
+}
+
+.box6 {
+	background-image: url(../imgs/car.jpg);
+}
+
+@media screen and (max-width: 300px) {
+
+}
+
+.pull-right {
+	color: #00000;
 }
