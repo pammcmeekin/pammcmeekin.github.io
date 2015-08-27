@@ -72,7 +72,7 @@
 
 
 .jumbotron.contact{
-	background-image: url(../imgs/contact.jpeg);
+	background-image: url(../imgs/contact2.jpeg);
 	color: #FFFFFF;
 }
 
@@ -83,7 +83,7 @@ form {
 
 
 body{
-	background-color: #FFFFFF;
+	background-color: #F0F0F0;
 }
 
 .marketing {
@@ -126,27 +126,27 @@ body{
 }
 
 .box1 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box1.jpg);
 }
 
 .box2 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box2.jpg);
 }
 
 .box3 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box3.jpg);
 }
 
 .box4 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box4.jpg);
 }
 
 .box5 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box5.jpeg);
 }
 
 .box6 {
-	background-image: url(../imgs/car.jpg);
+	background-image: url(../imgs/box6.jpg);
 }
 
 @media screen and (max-width: 300px) {
